@@ -102,6 +102,33 @@ const Card = () => {
       </div>
     </div>
   );
+  /*.cards{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+
+}
+
+  .card{
+    width: 18rem !important;
+  }
+   #wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  #reel {
+    width: 100vw;
+  }
+  .overlay {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }*/
 }
 
 export default Card;
